@@ -34,8 +34,26 @@ public class ArrayStack {
        return employee;
     }
 
+    public Employee peek(){
+        if(isEmpty()){
+            throw new EmptyStackException();
+        }
+
+        return stack[top - 1];
+    }
+
+    public int size(){
+        return top;
+    }
+
     public boolean isEmpty(){
 
         return top == 0;
+    }
+
+    public void printStack(){
+        for(int i = top - 1 ; i>=0 ; i--){
+            System.out.println(stack[i]);
+        }
     }
 }
