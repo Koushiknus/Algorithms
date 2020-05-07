@@ -1,3 +1,5 @@
+package stack;
+
 public class Employee {
 
     private String firstName;
@@ -56,7 +58,7 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "stack.Employee{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", id=" + id +
