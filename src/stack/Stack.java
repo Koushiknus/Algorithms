@@ -8,11 +8,11 @@ public class Stack {
     public static void main(String args[]){
        /* stack.ArrayStack stack = new stack.ArrayStack(10);
 
-        stack.push(new stack.Employee("Jane","Jones",123));
-        stack.push(new stack.Employee("Jomes","Bond",456));
-        stack.push(new stack.Employee("William","Buyers",989));
-        stack.push(new stack.Employee("Money","Heist",2000));
-        stack.push(new stack.Employee("Mike","Tyson",4000));
+        stack.push(new stack.queue.Employee("Jane","Jones",123));
+        stack.push(new stack.queue.Employee("Jomes","Bond",456));
+        stack.push(new stack.queue.Employee("William","Buyers",989));
+        stack.push(new stack.queue.Employee("Money","Heist",2000));
+        stack.push(new stack.queue.Employee("Mike","Tyson",4000));
 
        // stack.printStack();
 

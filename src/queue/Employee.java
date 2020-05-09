@@ -1,4 +1,4 @@
-package stack;
+package queue;
 
 public class Employee {
 
@@ -58,7 +58,7 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "stack.queue.Employee{" +
+        return "queue.Employee{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", id=" + id +
